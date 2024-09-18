@@ -36,9 +36,9 @@ public class Main {
                         System.out.print("Nhap SĐT sinh vien: ");
                         int sdt = sc.nextInt();
                         sc.nextLine();
-                        System.out.print("Nhập quê quán sinh viên: : ");
+                        System.out.print("Nhập quê quán sinh viên: ");
                         String queQuan = sc.nextLine();
-                        System.out.print("Nhập lớp sinh viên: : ");
+                        System.out.print("Nhập lớp sinh viên: ");
                         String lop = sc.nextLine();
                         studentsManager.addStudent(msv, ten, sdt, queQuan, lop);
                     } catch (InputMismatchException e) {

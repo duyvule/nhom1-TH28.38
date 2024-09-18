@@ -68,7 +68,7 @@ public class Students {
 
     @Override
     public String toString() {
-        return   "--------------------------------"
+        return   "-----------------------------------"
                 + "\nMã sinh viên: " + this.getId()
                 + "\nTên sinh viên: " + this.getName()
                 + "\nSố điện thoại: " + this.getCountry()
